@@ -1,0 +1,24 @@
+{
+
+    "manifest_version": 2,
+    "name": "THP SearchEngine (unofficial)",
+    "version": "1.0",
+  
+    "description": "Permet de rechercher un cours de la plateforme TheHackingProject en introduisant un ou plusieurs mots clés.",
+    "homepage_url": "https://github.com/fleopaulD/THP_search_webextension",
+    "icons": {
+      "48": "icons/THP-48.png"
+    },
+  
+    "permissions": [
+      "https://thp-search.herokuapp.com/search"
+    ],
+
+    "browser_action": {
+      "default_icon": "icons/THP-32.png",
+      "default_title": "THP Search Engine (unofficial)",
+      "default_popup": "popup/index.html"
+    }
+
+  }
+  
